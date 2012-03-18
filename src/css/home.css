@@ -1,0 +1,36 @@
+
+article.home {
+    background-image: url(/img/home.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 385px;
+}
+
+article.home h1 {
+    margin: 8px 0px 0px;
+    font-size: 32pt;
+}
+
+article.home h2 {
+    margin: 4px 0px 0px;
+    font-size: 18pt;
+}
+
+.map {
+    height: 350px;
+    width: 960px;
+    padding: 0px;
+}
+
+.here-are-we span {
+    display: block;
+    margin: 8px 4px;
+    padding-left: 28px;
+    height: 28px;
+    line-height: 24px;
+    background: url(/img/icons.png) no-repeat;
+}
+
+.here-are-we .icon-0 { background-position: 0px   0px; }
+.here-are-we .icon-1 { background-position: 0px -24px; }
+.here-are-we .icon-2 { background-position: 0px -48px; }

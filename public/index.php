@@ -18,7 +18,7 @@ $site->setHeader('header.tpl');
 $site->setFooter('footer.tpl');
 
 /* Setup the MySQL Database */
-$site->mysqlSetup("localhost", "username", "password", "database");
+//$site->mysqlSetup("localhost", "username", "password", "database");
 
 /* Display it! */
 $status = $site->handleRequest($_SERVER['REQUEST_URI']);
